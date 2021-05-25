@@ -16,6 +16,6 @@ class Kbank extends Constant implements PaymentInterface
     }
 
     public static function inquiry($order_id){
-
+        return $order_id ."DEBUG";
     }
 }
